@@ -1,0 +1,139 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color:blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-image: url(imagens/5172658.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+.container {
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 1000px;
+    
+    background-image: url(imagens/5177936.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+input{
+    width: 1005%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+h1 {
+    margin: 0 0 20px;
+    text-align: center;
+}
+
+.input-group {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border-radius: 4px 0 0 4px;
+}
+
+button {
+background-color: #007bff;
+    padding: 10px;
+    border: none;
+    background:pink;
+    color:blue;
+    cursor: pointer;
+    border-radius: 0 4px 4px 0;
+}
+
+button:hover {
+    background: black;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid black;
+    margin-bottom: 5px;
+    border-radius: 4px;
+    background:mediumaquamarine;
+}
+
+li.completed {
+    text-decoration: line-through;
+    color: #888;
+}
+
+.filters {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.filters button {
+    flex: 1;
+    margin: 0 5px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    
+    border-radius: 4px;
+}
+
+.filters button.active {
+    background:blue;
+    color: white;
+}
+.img-src{
+background-color: black;
+padding: 5px;
+
+}
+
+.left img{
+    float: right;
+}
+
+@media (max-width: 720px){
+    body{  
+        width: 100%;  
+        background-image: url(imagens/5172658.jpg);
+        height: 500px;
+        background-repeat: no-repeat;
+        background-size: auto;
+        margin-top: 50px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .container {
+        width: 100%;
+        background-image: url(imagens/5177936.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: auto;
+    }
+
+    h1{
+        margin-top: 50px;
+    }
+
+    
+}

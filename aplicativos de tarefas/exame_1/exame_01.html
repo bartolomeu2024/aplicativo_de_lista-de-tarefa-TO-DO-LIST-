@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do App List</title>
+    <link rel="stylesheet" href="Styles.Css">
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <img src="imagens/pesquisar.jpg" width="50" alt="">
+        </div>
+    <h1>Aplicativos de listas de tarefas (To-Do List)</h1>
+        <div class="input-group">
+            <input type="text" id="new-task" placeholder="Adicionar Nova Tarefa...">
+            <button id="add-task">Adicionar</button>
+        </div>
+        <ul id="task-list"></ul>
+        <div class="filters">
+            <button id="filter-all"> <img src="imagens/todas.jpg" width="30" alt=""><br> Todas</button>
+            <button id="filter-active"><img src="imagens/pendentes.jpg" width="30" alt=""><br>Pendentes</button>
+     <button id="filter-completed"><img src="imagens/concluidas.jpg" width="30" alt=""><br>Concluidas</button>
+        </div>
+    </div>
+    <script src="App.js"></script>
+</body>
+</html>
